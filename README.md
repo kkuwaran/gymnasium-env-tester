@@ -48,6 +48,8 @@ pip install gymnasium[atari]
 ```
 - Installed package: `ale-py-0.10.1`
 
+For more information, refer to the [ALE Documentation](https://ale.farama.org/getting-started/)
+
 ### Gymnasium-Robotics
 Gymnasium robotics environments:
 ```bash
