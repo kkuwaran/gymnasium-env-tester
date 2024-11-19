@@ -53,7 +53,8 @@ Gymnasium robotics environments:
 ```bash
 pip install gymnasium-robotics
 ```
-- Installed version: `gymnasium-robotics-1.3.1`
+- Installed version: `PettingZoo-1.24.3`, `gymnasium-robotics-1.3.1`
+- **Note:** Installing `gymnasium-robotics` will downgrade mujoco to `mujoco-3.1.6`
 
 For more information, refer to the [Gymnasium-Robotics Documentation](https://robotics.farama.org/)
 
@@ -70,7 +71,7 @@ For more information, refer to the [Gymnasium-Robotics Documentation](https://ro
 
 Example:
 ```bash
-python test_gymnasium_envs.py --env-id HandManipulateBlock-v1
+python test_gymnasium_envs.py --env-id CartPole-v1
 ```
 
 ## Features
